@@ -1,0 +1,3 @@
+[submodule "verdandi"]
+	path = verdandi
+	url = git@github.com:LongHairedHacker/verdandi.git
