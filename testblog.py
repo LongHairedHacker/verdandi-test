@@ -5,6 +5,7 @@ from verdandi.modules.page import Page
 from verdandi.modules.commonassets import CommonAssets
 from verdandi.modules.newsfeed import NewsFeed
 from verdandi.modules.gallery import Gallery
+from verdandi.modules.sassassets import SassAssets
 
 class TestPage1(Page):
 	title = "A cool new Page"
@@ -33,6 +34,9 @@ class Assets(CommonAssets):
 				('img/', 'img/files')]
 
 
+class Styles(SassAssets):
+	assets = [('test.scss', 'css/test.css'),]
+
 class News(NewsFeed):
 	title = "New News"
 	url = "news.html"
@@ -51,6 +55,7 @@ class TestBlog(Verdandi):
 				TestPage2(),
 				TestPage3(),
 				Assets(),
+				Styles(),
 				News(),
 				TestGallery()]
 
