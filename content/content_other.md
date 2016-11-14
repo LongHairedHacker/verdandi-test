@@ -1,7 +1,8 @@
 12.2.2014 13:37
 12.2.2014 23:42
 
-A cool new Page
+Yet an other cool Page
+
 
 Test
 ----
