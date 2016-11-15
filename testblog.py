@@ -19,6 +19,7 @@ class TestPage2(Page):
 	menu_title = "Other new Page"
 	menu_label = "cool_page1"
 	content_file = "content_other.md"
+	news_feed_id = "news"
 
 
 class TestPage3(Page):
@@ -27,6 +28,7 @@ class TestPage3(Page):
 	menu_parent = "cool_page1"
 	url = "subdir/page3.html"
 	content_file = "content_yetanother.md"
+	news_feed_id = "news"
 
 class Assets(CommonAssets):
 	assets = [('img', 'img/dir'),
@@ -41,6 +43,7 @@ class News(NewsFeed):
 	url = "news.html"
 	menu_title = "News"
 	menu_label = "news"
+	news_feed_id = "news"
 
 class TestGallery(Gallery):
 	url = "testgallery.html"

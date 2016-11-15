@@ -1,7 +1,8 @@
-12.2.2014 13:37
-12.2.2014 23:42
+title: A cool new Page
+creation_time:  12.2.2014 13:37
+edit_time:      12.2.2014 23:42
 
-A cool new Page
+I don't have a news item ....
 
 Test
 ----

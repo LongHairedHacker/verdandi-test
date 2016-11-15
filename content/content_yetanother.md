@@ -1,7 +1,6 @@
-12.2.2014 13:37
-12.2.2014 23:42
-
-An other cool Page
+title: An other cool Page
+creation_time:  12.2.2014 13:37
+edit_time:      12.2.2014 23:42
 
 Test
 ----

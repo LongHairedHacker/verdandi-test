@@ -1,8 +1,6 @@
-12.2.2014 13:37
-12.2.2014 23:42
-
-Yet an other cool Page
-
+title: Yet an other cool Page
+creation_time:  12.2.2014 13:37
+edit_time:      12.2.2014 23:42
 
 Test
 ----
