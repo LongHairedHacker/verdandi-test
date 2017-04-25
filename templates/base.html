@@ -1,6 +1,18 @@
 <html>
 	<head>
 		<title>{{title}}</title>
+
+		<meta property="og:site_name" content="Verdandi testblog">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="{{meta_title}}">
+		<meta property="og:url" content="{{meta_url}}">
+		{% if meta_description %}
+		<meta property="og:description" content="{{meta_description|striptags}}">
+		{% endif %}
+		{% if meta_image %}
+		<meta property="og:image" content="{{meta_image}}" >
+		{% endif %}
+		</head>
 	</head>
 	<body>
 		{{menu}}

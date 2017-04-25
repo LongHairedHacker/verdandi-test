@@ -30,6 +30,10 @@ class TestPage3(Page):
 	content_file = "content_yetanother.md"
 	news_feed_id = "news"
 
+	metadata = {
+		'image' : 'img/bar.png',
+	}
+
 class Assets(CommonAssets):
 	assets = [('img', 'img/dir'),
 				('img/', 'img/files')]
@@ -44,6 +48,10 @@ class News(NewsFeed):
 	menu_title = "News"
 	menu_label = "news"
 	news_feed_id = "news"
+	metadata = {
+		'description' : 'A news feed with news',
+		'image' : 'img/bar.png',
+	}
 
 class TestGallery(Gallery):
 	url = "testgallery.html"
